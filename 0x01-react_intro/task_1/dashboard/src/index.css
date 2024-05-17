@@ -1,0 +1,13 @@
+/* General styles for the entire application */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  #root,
+  #root-notifications {
+    margin: 20px;
+  }
+  

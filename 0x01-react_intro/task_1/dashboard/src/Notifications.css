@@ -1,0 +1,31 @@
+.Notifications {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    background: white;
+    z-index: 1000;
+  }
+  
+  .Notifications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Notifications li {
+    margin-bottom: 10px;
+  }
+  
+  .Notifications li[data-priority="default"] {
+    color: blue;
+  }
+  
+  .Notifications li[data-priority="urgent"] {
+    color: red;
+  }
+  .Notifications button img {
+    width: 20px;
+    height: 20px;
+  }
