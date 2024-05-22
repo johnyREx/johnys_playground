@@ -1,0 +1,25 @@
+/* Note container */
+.note {
+    background-color: seaBlue;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* Note hover effect */
+  .note:hover {
+    background-color: lightSeaBlue;
+  }
+  
+  /* Note title */
+  .note-title {
+    font-weight: bold;
+  }
+  
+  /* Note body */
+  .note-body {
+    margin-top: 5px;
+  }
+  
