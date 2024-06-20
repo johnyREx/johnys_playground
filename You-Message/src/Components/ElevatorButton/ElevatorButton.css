@@ -1,0 +1,32 @@
+.elevator-button {
+    position: absolute !important;
+    bottom: 5rem;
+    right: 1rem;
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+    background-color: var(--background-white) !important;
+    transition-property: opacity, bottom, visibility !important;
+    transition-duration: 300ms !important;
+    transition-timing-function: ease !important;
+}
+.elevator-button.show {
+    visibility: visible;
+    opacity: 1;
+    bottom: 6rem;
+}
+.elevator-button__unread-count {
+    display: flex;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    width: fit-content;
+    padding: 0.5rem;
+    align-items: center;
+    border-radius: 50rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-text);
+}
