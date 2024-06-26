@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_cbynyen', 'template_koyzyek', form.current, 'NRSJLZl04DdP37ubL')
+            .then((result) => {
+                console.log(result.text);
+                alert("Message sent successfully!");
+            }, (error) => {
+                console.log(error.text);
+                alert("An error occurred, please try again.");
+            });
+
+        e.target.reset();
+    };
+
     return (
         <section id="contact">
             <div className="contact container">
@@ -31,6 +49,18 @@ function Contact() {
                             <h2>Castelfranco Emilia, Modena, Italy</h2>
                         </div>
                     </div>
+                </div>
+                <div className="contact-form">
+                    <form ref={form} onSubmit={sendEmail}>
+                        <h2>Contact Me</h2>
+                        <label>Name</label>
+                        <input type="text" name="user_name" required />
+                        <label>Email</label>
+                        <input type="email" name="user_email" required />
+                        <label>Message</label>
+                        <textarea name="message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
                 </div>
             </div>
         </section>
