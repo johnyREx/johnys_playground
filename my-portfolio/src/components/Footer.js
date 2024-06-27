@@ -10,16 +10,24 @@ function Footer() {
                 <h2>Your Complete Web Solution</h2>
                 <div className="social-icon">
                     <div className="social-item">
-                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="Facebook" /></a>
+                        <a href="https://www.facebook.com/johny.Rex.965/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="Facebook" />
+                        </a>
                     </div>
                     <div className="social-item">
-                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="Instagram" /></a>
+                        <a href="https://www.instagram.com/thejohnyrex/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="Instagram" />
+                        </a>
                     </div>
                     <div className="social-item">
-                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/x.png" alt="Twitter" /></a>
+                        <a href="https://x.com/TheJohnyRex" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/bubbles/100/000000/x.png" alt="Twitter" />
+                        </a>
                     </div>
                     <div className="social-item">
-                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" alt="Behance" /></a>
+                        <a href="https://www.behance.net/juxkallmerex" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/bubbles/100/000000/behance.png" alt="Behance" />
+                        </a>
                     </div>
                 </div>
                 <p>Copyright © 2024 T-Rex. All rights reserved</p>
