@@ -61,6 +61,9 @@ function Contact() {
                         <textarea name="message" required></textarea>
                         <button type="submit">Send</button>
                     </form>
+                    <a href="https://wa.me/233246408194" className="whatsapp-button" target="_blank" rel="noopener noreferrer">
+                        <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp" />
+                    </a>
                 </div>
             </div>
         </section>
